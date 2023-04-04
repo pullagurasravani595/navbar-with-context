@@ -1,0 +1,38 @@
+/* Write your CSS here */
+
+.about-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.dark-about {
+  background-color: #000000;
+}
+
+.about-image {
+  background-color: transparent;
+  height: 100px;
+  width: 100px;
+}
+
+.about-heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.dark-heading {
+  color: #1e293b;
+}
+
+.light-heading {
+  color: #ffffff;
+}
+
+.light-about {
+  background-color: #ffffff;
+}

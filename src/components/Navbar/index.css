@@ -1,0 +1,72 @@
+/* Write your CSS here */
+
+.website-logo {
+  background-color: transparent;
+  height: 28px;
+  width: 28px;
+}
+
+.button-img {
+  background-color: transparent;
+  height: 16px;
+  width: 17px;
+}
+
+.dark {
+  background-color: #333333;
+}
+
+.light {
+  background-color: #ffffff;
+}
+
+.nav-container {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.home-about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  outline: none;
+}
+
+.list-element {
+  list-style-type: none;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 16px;
+}
+
+.dark-list-element {
+  color: #ffffff;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .button-img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .list-element {
+    font-size: 20px;
+  }
+}
